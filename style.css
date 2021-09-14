@@ -31,8 +31,46 @@ div.main {
     display: inline-block;
 }
 
+
+
 @keyframes play {
     from{background-position: 0vh;}
     to{background-position: -90vh;}
+}
+
+
+
+
+#category >  {
+
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    border: none;
+    margin: 2%;
+    width: 20vw;
+    height: 20vw;
+    text-align: center;
+    background-color: rgba(88, 88, 88, 0.3);
+}
+
+#aboutMe {
+    background-image: url("./imgButton/");
+}
+
+
+@media (max-width: 800px) {
+    #category {
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        border: none;
+        margin: 2%;
+        width: 50vw;
+        height: 50vw;
+    }
 }
 
