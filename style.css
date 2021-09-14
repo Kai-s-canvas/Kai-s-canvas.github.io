@@ -19,3 +19,20 @@ div.main {
     margin: 6%;
     padding: 2%;
 }
+
+#logo {
+    margin: 0;
+    padding: 0;
+    height: 30vh;
+    width: 30vh;
+    background: url("./logo/logo123.png") left center;
+    background-size: cover;
+    animation: play 1.5s steps(3) infinite;
+    display: inline-block;
+}
+
+@keyframes play {
+    from{background-position: 0vh;}
+    to{background-position: -90vh;}
+}
+
