@@ -11,13 +11,15 @@ div#nama {
 }
 
 div.main {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'monospace', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     text-align: center;
-    font-size: 3vh;
-    background-color: rgba(88, 88, 88, 0.3);
+    font-size: 2.5vh;
+    background-color: rgba(0, 150, 241, 0.1);
     margin: 6%;
     padding: 2%;
+    border-style: solid;
+    border-color: rgba(0, 150, 255, 0.425);
 }
 
 #logo {
