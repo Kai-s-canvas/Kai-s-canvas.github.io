@@ -53,11 +53,12 @@ button {
     width: 20vw;
     height: 20vw;
     text-align: center;
-    background-color: rgba(88, 88, 88, 0.3);
+    background-color: rgba(88, 88, 88, 0);
 }
 
 #aboutMe {
-    background-image: url("./imgButton/");
+    background-image: url("./imgButton/fanart001.png");
+    background-size: cover;
 }
 
 
