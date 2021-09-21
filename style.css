@@ -10,8 +10,8 @@ div#nama {
     font-size: 7vh;
 }
 
-div.main {
-    font-family: 'monospace', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.main {
+    font-family: 'monospace', 'Lucida Sans Unicode';
     color: white;
     text-align: center;
     font-size: 2.5vh;
@@ -44,36 +44,73 @@ div.main {
 
 
 #category >  {
-
+    border-style: solid;
+    border-color: rgba(0, 150, 255, 0.425);
     display: flex;
     flex-direction: row;
 }
 
 button {
-    border: none;
+    border-style: solid;
+    border-color: rgba(0, 150, 255, 0.425);
     margin: 2%;
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     text-align: center;
     background-color: rgba(88, 88, 88, 0);
 }
 
-#aboutMe {
-    background-image: url("./imgButton/fanart001.png");
+#log {
+    background: url("./imgButton/log_a.png");
     background-size: cover;
 }
 
+#cv {
+    background: url("./imgButton/cv_a.png");
+    background-size: cover;
+}
+
+#ai {
+    background: url("./imgButton/ai_a.png");
+    background-size: cover;
+}
+
+#wf {
+    background: url("./imgButton/wf_a.png");
+    background-size: cover;
+}
 
 @media (max-width: 800px) {
+
+    button{
+        border-style: solid;
+        border-color: rgba(0, 150, 255, 0.425);
+        margin: 2%;
+        width: 40vw;
+        height: 40vw;
+    }
     #category {
         display: flex;
         flex-direction: column;
     }
-    button{
-        border: none;
-        margin: 2%;
-        width: 50vw;
-        height: 50vw;
-    }
 }
 
+/*game001*/
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 400px;
+    border-style: solid;
+    border-color: rgba(0, 150, 255, 0.425);
+    background-color:rgba(0, 150, 255, 0.3);
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+
+}

@@ -1,0 +1,13 @@
+Latar Belakang:
+	Pada saat itu saya baru menyadari Adobe Illustrator memiliki fitur untuk running script custom, karena rasa penasaran akhirnya saya coba pelajari. Sebenarnya selain penasaran, saya juga berharap itu bisa mempercepat kinerja saya yang lambat. Kebetulan salah satu bahasa yang dapat digunakan adalah JavaScript, bahasa yang pernah saya pelajari untuk membuat website lebih hidup di mata user. Awalnya saya ragu apakah saya bisa menulis script yang benar benar mempercepat kinerja saya, tapi lambat laun setelah saya memahami fitur dan object yang dapat diakses, saya tiba-tiba terpikirkan suatu rencana project.
+	Singkat cerita, karena berbagai alasan, saya meberanikan diri untuk mencoba menulis script yang jarang dibuat orang.
+
+Hambatan:
+	1.) Karena jarang ada orang yang menulis script untuk Adobe Illustrator, jadi jarang ada orang yang membuat tutorialnya. Untungnya Adobe menyediakan dokumentasi yang cukup lengkap.
+	2.) Hanya dapat menggunakan Javascript ES5, alasan satu ini agak membatasi penulisan karena ES5 sudah pasti belum se'dinamis' ES6 yang umum digunakan saat ini. Hal ini juga membuat saya harus berkali-kali mengecek syntax seperti apa yang bisa dibaca ES5.
+
+
+Project pertama
+1.) KAi Bot V1.1 Template Lingkaran
+
+Penjelasan
